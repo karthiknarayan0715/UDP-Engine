@@ -1,0 +1,58 @@
+# =========================
+# UDP Game Server (C++ with make)
+# =========================
+
+# Build artifacts
+/udp_game_server/build/
+/udp_game_server/bin/
+/udp_game_server/obj/
+
+# Common compiled files
+/udp_game_server/*.o
+/udp_game_server/*.a
+/udp_game_server/*.so
+/udp_game_server/*.exe
+/udp_game_server/*.out
+/udp_game_server/*.log
+
+# Makefile intermediates
+/udp_game_server/*.d
+/udp_game_server/*.depend
+/udp_game_server/*.dSYM/
+
+# =========================
+# Unity Projects (any depth)
+# =========================
+
+# Unity generated files
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+
+# Unity Asset Store plugin cache
+**/[Aa]ssets/AssetStoreTools*
+
+# Optional: editor-specific user settings (safe to ignore for teams)
+**/[Uu]serSettings/
+
+# IDE junk
+**/.vs/
+**/.idea/
+**/.vscode/
+**/*.csproj
+**/*.sln
+**/*.user
+**/*.unityproj
+
+# =========================
+# OS Junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# Root logs folder (if you have one)
+logs/

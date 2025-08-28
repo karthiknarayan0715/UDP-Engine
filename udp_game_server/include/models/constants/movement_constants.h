@@ -1,0 +1,19 @@
+#ifndef MOVEMENT_CONSTANTS_H
+#define MOVEMENT_CONSTANTS_H
+
+#include "models/constants/constants.h"
+
+#define INPUT_FORWARD 0x00000001
+#define INPUT_BACK 0X00000010
+#define INPUT_RIGHT 0X00000100
+#define INPUT_LEFT 0X00001000
+
+#define MAX_FALLING_SPEED 5.0
+
+#define JUMP_VELOCITY 5.0
+
+#define GRAVITY 9.81
+
+#define MOVEMENT_SPEED 5.0
+
+#endif
